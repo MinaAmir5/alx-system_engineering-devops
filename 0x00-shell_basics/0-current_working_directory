@@ -1,2 +1,2 @@
 #!/bin/bash
-root@4eee51f88ce1:/# pwd
+realpath “${BASH_SOURCE:-$0}”
