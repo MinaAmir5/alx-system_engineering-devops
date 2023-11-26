@@ -1,7 +1,5 @@
 # Web infrastructure design
 
-![web_structure](https://media.geeksforgeeks.org/wp-content/uploads/20220817182651/NetworkInfrastructure1.png)
-
 Web Applications Infrastructure/Web Infrastructure also called internet infrastructure is the physical hardware, transmission media, and software used to interconnect computers and users on the Internet.
 
 - Simple Web Infrastructure
@@ -18,8 +16,6 @@ Web Applications Infrastructure/Web Infrastructure also called internet infrastr
 
 ## Simple Web Infrastructure
 
-![](https://miro.medium.com/max/720/1*xKd1CchSaSKV83Oizju8kg.webp)
-
 - 1 server
 - 1 web server `(Nginx)`
 - 1 application server
@@ -28,8 +24,6 @@ Web Applications Infrastructure/Web Infrastructure also called internet infrastr
 - 1 domain name `foobar.com` configured with a `www` record that points to your server IP `8.8.8.8`
 
 ## Distrubuted Web Infrasture
-
-![](https://upload.wikimedia.org/wikipedia/commons/5/55/Network_Architecture_Diagram_-_Distributed_Web_Infrastructure.pdf)
 
 - 2 servers
 - 1 web server `(Nginx)`
@@ -40,11 +34,9 @@ Web Applications Infrastructure/Web Infrastructure also called internet infrastr
 
 ## Monitored web infrastructure
 
-![](https://miro.medium.com/max/720/1*t7oSAWV7gtp-WSRNXfM9Hw.webp)
-
 - 3 firewalls
 - 1 SSL certificate to serve www.foobar.com over HTTPS
 - 3 monitoring clients (data collector for Sumologic or other monitoring services)
 
 ## Author
-### ___[UDO INNOCENT CHARLES](https://github.com/Innocentsax)___
+### ___[Mina Amir Girgis](https://github.com/MinaAmir5)___
